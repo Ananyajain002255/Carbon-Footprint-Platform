@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Awareness Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌍 Carbon Footprint Awareness Platform</h1>
+        <p>Measure • Understand • Reduce Your Environmental Impact</p>
+    </header>
+
+    <section class="hero">
+        <h2>Together We Can Build a Greener Future 🌱</h2>
+        <p>
+            Carbon footprint is the total amount of greenhouse gases released
+            into the atmosphere due to our daily activities. Calculate your
+            estimated emissions and discover ways to reduce them.
+        </p>
+    </section>
+
+    <section class="calculator">
+        <h2>🧮 Carbon Footprint Calculator</h2>
+
+        <label>Distance Travelled (KM)</label>
+        <input type="number" id="distance" placeholder="Enter distance">
+
+        <label>Select Transportation</label>
+        <select id="transport">
+            <option value="0.21">🚗 Car</option>
+            <option value="0.10">🚌 Bus</option>
+            <option value="0.05">🚆 Train</option>
+            <option value="0.09">🏍 Bike</option>
+            <option value="0">🚶 Walking</option>
+        </select>
+
+        <button onclick="calculate()">
+            Calculate Emission
+        </button>
+
+        <h3 id="result"></h3>
+    </section>
+
+    <section class="awareness">
+        <h2>🌿 Why Carbon Footprint Matters?</h2>
+        <div class="cards">
+
+            <div class="card">
+                <h3>🌡 Climate Change</h3>
+                <p>
+                    High carbon emissions contribute to global warming and
+                    climate change.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🌊 Rising Sea Levels</h3>
+                <p>
+                    Increased temperatures cause glaciers to melt and sea
+                    levels to rise.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🌳 Deforestation</h3>
+                <p>
+                    Forest destruction reduces nature's ability to absorb
+                    carbon dioxide.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="tips">
+        <h2>♻ Tips To Reduce Carbon Footprint</h2>
+
+        <ul>
+            <li>🚲 Use bicycles for short distances.</li>
+            <li>🚌 Prefer public transportation.</li>
+            <li>💡 Save electricity and water.</li>
+            <li>🌳 Plant more trees.</li>
+            <li>🔋 Use renewable energy sources.</li>
+            <li>🛍 Reduce plastic consumption.</li>
+        </ul>
+    </section>
+
+    <section class="pledge">
+        <h2>🤝 Green Pledge</h2>
+        <p>
+            I pledge to make environmentally responsible choices and help
+            reduce carbon emissions for a sustainable future.
+        </p>
+        <button>I Take The Pledge 🌱</button>
+    </section>
+
+    <footer>
+        <p>
+            © 2026 Carbon Footprint Awareness Platform |
+            Created for Hackathon Challenge
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
